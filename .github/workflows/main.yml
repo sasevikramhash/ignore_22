@@ -11,8 +11,8 @@ jobs:
       - name: check all files
         run: ls
       - name: check js files
-        run:  check index.js
+        run:  test index.js
       - name: check ignore files
-        run:  check .gitignore
+        run:  test .gitignore
       - name: check status
         run: echo "all__are__set"
